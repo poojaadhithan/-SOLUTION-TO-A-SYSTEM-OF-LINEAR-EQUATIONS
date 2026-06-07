@@ -14,7 +14,18 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-<img width="598" height="297" alt="image" src="https://github.com/user-attachments/assets/9020c992-d0c4-41e9-9f3e-bbe0227a2d5d" />
+~~~
+#Program to find the eigen values and eigen vectors.
+#Develop by: POOJA A
+#RegisterNumber: 212225040300
+import os
+os.environ["OPENBLAS_NUM_THREADS"]="1"
+import numpy as np
+matrixA=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+const=np.array([-9,4,-1])
+result=np.linalg.solve(matrixA,const)
+print(result)
+~~~
 
 
 ## Output:
